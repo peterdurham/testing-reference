@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FocusInput matches snapshot 1`] = `
+<div>
+  <span
+    data-testid="change-input-greeting"
+  >
+    Welcome, 
+    Anonymous User
+    !
+  </span>
+  <input
+    aria-label="user-name"
+    placeholder="Your name"
+    type="text"
+    value=""
+  />
+</div>
+`;
