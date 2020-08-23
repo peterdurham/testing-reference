@@ -2,12 +2,12 @@ import React, { useState } from "react";
 
 function Counter() {
   const [count, setCount] = useState(0);
-  const increment = (count) => {
+  function increment(count) {
     setCount((count) => count + 1);
-  };
-  const decrement = (count) => {
+  }
+  function decrement(count) {
     setCount((count) => count - 1);
-  };
+  }
 
   return (
     <div>

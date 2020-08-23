@@ -3,34 +3,3 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-/* .App {
-  text-align: center;
-} */
-
-#TodoList {
-  background: rgb(33, 33, 33);
-  color: #fff;
-  width: 500px;
-  margin: 24px auto;
-  padding: 12px 24px 24px 24px;
-}
-#TodoList h2 {
-  padding-bottom: 12px;
-  margin-bottom: 12px;
-  border-bottom: 1px solid rgb(66, 66, 66);
-}
-#TodoList form {
-  padding-bottom: 12px;
-  margin-bottom: 12px;
-  border-bottom: 1px solid rgb(66, 66, 66);
-}
-#TodoList label {
-  display: block;
-}
-#TodoList input {
-  display: block;
-  width: 100%;
-}
-#TodoList button {
-}
