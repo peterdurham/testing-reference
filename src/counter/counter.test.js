@@ -6,8 +6,8 @@ import Counter from "./counter";
 test("Counter properly increments and decrements", () => {
   const { getByText } = render(<Counter />);
   const counter = getByText("0");
-  const incrementButton = getByText("+");
-  const decrementButton = getByText("-");
+  const incrementButton = getByText("More");
+  const decrementButton = getByText("Less");
 
   fireEvent.click(incrementButton);
   expect(counter.textContent).toEqual("1");
